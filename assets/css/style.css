@@ -29,8 +29,8 @@ header {
   text-align: center;
   padding: 20px;
   padding-top: 0px;
-  color:black;
- 
+  color:#224436;
+ text-shadow: 0 0 10px #ffffff;
 
 }
 
@@ -47,6 +47,8 @@ header {
   max-width: 800px;
   padding: 30px 40px;
   text-align: center;
+  border: 2px solid #306751;
+  box-shadow: 0 0 10px #c0c7cf;
 }
 
 .card-header::after {
@@ -93,7 +95,13 @@ header {
   padding: 14px 34px;
   text-align: center;
   cursor: pointer;
+  transition: 0.8s;
 }
+
+.btn:hover{
+background-color: #1c3a2e;
+}
+
 
 button[disabled] {
   cursor: default;
