@@ -163,7 +163,7 @@ function getPasswordOptions() {
 
 //Function for Randomizing Arrays
 function getRandom(array){
-  var randomIndex = Math.floor(math.random( )* array.length);
+  var randomIndex = Math.floor(Math.random( ) * array.length);
   var randomElement = array[randomIndex];
 
   return randomElement;
@@ -217,6 +217,13 @@ var possilbeCharacter = getRandom(possilbeCharacters);
 result.push(possilbeCharacter);
 }
 
+//add atleast one guaranteed character
+for ( var i = 0; i <guaranteedCharacters.length; i++){
+result[i] = guaranteedCharacters[i];
+}
+
+//turn the results into a string and write the password
+return result.join('');
 
 }
 
