@@ -31,5 +31,7 @@ by global variable possible and guaranteed characters, and then turnign the pass
 
 we were provided with some basic CSS however I made it much more appealing by addint a background, aligning the texts, adding a button animation and the overall look to be interesting to look at.
 
+I then removed the Array to a seperate data sheet, so that the coding can be cleaner, and easier to follow and no clutter. 
+
 after several pushes to the master the product was finished.
 
